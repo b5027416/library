@@ -2,5 +2,5 @@ package com.ecook
 
 class BookReviewController {
 
-    def index() { }
+   def scaffold=BookReview
 }

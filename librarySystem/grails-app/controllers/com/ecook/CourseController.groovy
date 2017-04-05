@@ -2,5 +2,5 @@ package com.ecook
 
 class CourseController {
 
-    def index() { }
+   def scaffold=Course
 }
