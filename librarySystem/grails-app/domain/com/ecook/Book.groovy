@@ -9,6 +9,11 @@ Date dateBorrowed
 Date returnDate
 String student
 String overdue
+Library library
+
+
+
+static hasMany = [bookreviews:BookReview]
 
 
 

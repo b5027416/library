@@ -3,15 +3,19 @@ package com.ecook
 class Student {
 String name
 String email
-String username
+String userName
 String password
 String studentID
 String course
+Library library
+
+
+static hasMany = [books:Book, bookreviews:BookReview]
 
     static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false, email:true
-username blank:false, nullable:false, unique:true
+userName blank:false, nullable:false, unique:true
 password blank:false, nullable:false, password:true
 studentID blank:false, nullable:false, unique:true
 course blank:false, nullable:false

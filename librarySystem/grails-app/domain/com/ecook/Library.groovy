@@ -10,6 +10,7 @@ String location
 String studySpaces
 
 
+static hasMany = [books:Book, librarians:Librarian, students:Student]
 
     static constraints = {
 name blank:false, nullable:false
