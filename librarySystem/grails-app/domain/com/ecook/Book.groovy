@@ -7,11 +7,13 @@ String author
 String isbn
 Date dateBorrowed
 Date returnDate
-String student
+Student student
 String overdue
 Library library
 
-
+String toString(){
+"$title"
+}
 
 static hasMany = [bookreviews:BookReview]
 

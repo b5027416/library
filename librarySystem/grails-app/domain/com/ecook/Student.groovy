@@ -6,9 +6,12 @@ String email
 String userName
 String password
 String studentID
-String course
+Course course
 Library library
 
+String toString(){
+"$name"
+}
 
 static hasMany = [books:Book, bookreviews:BookReview]
 

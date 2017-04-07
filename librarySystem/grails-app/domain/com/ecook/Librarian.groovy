@@ -9,7 +9,11 @@ String password
 String telephone
 Library library
 
+String toString(){
+"$name"
+}
 
+static belongsTo=Library
 
     static constraints = {
 name blank:false, nullable:false
